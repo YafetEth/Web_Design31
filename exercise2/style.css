@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+h1 {
+
+background-color: rgb(229, 50, 119);
+text-align: center;
+width: 600px;
+margin-left: auto;
+margin-right: auto;
+padding: 20px 0;
+
+}
+
+h2{
+
+background-color: rgb(197, 232, 93);
+ text-align: center;
+ width: 600px;
+ margin-left: auto;
+ margin-right: auto;
+padding: 20px 0;
+
+}
+
+p {
+
+background-color: yellow;
+display:block;
+padding: 50px;
+width: 400px;
+margin: 5px auto;
+border: 5px solid red;
+border-radius: 15px;
+text-align: center;
+
+}
+
+
+
+.first {
+
+    background-color: rgb(52, 224, 152);
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    
+     }
+
+ .second {
+
+background-color: rgb(52, 224, 152);
+font-family: 'Courier New', Courier, monospace;
+color: black;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+
+ }
+ 
+ .third {
+
+background-color: rgb(52, 224, 152);
+font-family: 'Courier New', Courier, monospace;
+color: black;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+
+ }
+
+ .fourth {
+
+background-color: rgb(52, 224, 152);
+font-family: 'Courier New', Courier, monospace;
+color: black;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+
+ }
+ .fifth {
+
+    background-color: rgb(52, 224, 152);
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+ }
+ .sixth {
+
+background-color: rgb(52, 224, 152);
+font-family: 'Courier New', Courier, monospace;
+color: black;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+
+ }
+ .seventh {
+
+ background-color: rgb(52, 224, 152);
+font-family: 'Courier New', Courier, monospace;
+color: black;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+
+ }
+
+ .eigths {
+
+    background-color: rgb(52, 224, 152);
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+ }
+
+ .nineth {
+
+    background-color: rgb(52, 224, 152);
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+ }
+ .tenth {
+
+    background-color: rgb(52, 224, 152);
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+ }
+
+
+
+ header {
+    background-color: rgb(52, 224, 152);
+    padding: 50x;
+    
+ }
