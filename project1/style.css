@@ -1,0 +1,167 @@
+
+/* Custom font */
+p {
+    font-family: 'exo', sans-serif;
+}
+
+
+/* CSS for the body element with a more visible background image */
+body {
+    background-image: url('images/pexels-jeremy-bishop-2923591.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.2); /* Increase the alpha value (e.g., 0.7 for more visible) */
+    color: #dddddd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* Container for content */
+.container {
+    background-color: #0f0e0eeb; /* Dark semi-transparent background for content */
+    padding: 30px;
+}
+
+/* Header styles */
+header {
+
+    background-color: transparent; /* Make the header transparent */
+    text-align: center;
+    padding: 30px;
+}
+
+/* Main content styles */
+main {
+    padding: 70px;
+}
+
+/* Section headings */
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: hwb(0 87% 8%);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: oblique;
+}
+/* Styles for the "About the Book" section */
+.book-summary-box {
+    background-color: rgba(249, 8, 8, 0.2); /* Dark semi-transparent background color */
+    padding: 60px; /* Adjust the padding as needed */
+    border-radius: 500px; /* Add rounded corners for a box effect */
+    margin: 50px; /* Add margin to create space around the box */
+}
+/* Styles for the "About the Author" section */
+.author-info-shape {
+    position: relative;
+    background-color: rgba(249, 8, 8, 0.2); /* Background color for the section */
+    color: #f7f6f6;
+    padding: 50px; /* Adjust the padding as needed */
+    border-radius: 500px;
+}
+
+/* Create a diagonal shape using ::before pseudo-element */
+.author-info-shape::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px; /* Adjust the height to control the shape */
+    background-color: #e41111; /* Match the section's background color */
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%, 7% 80%); /* Adjust the clip-path to change the shape */
+}
+
+
+/* List styles */
+ul {
+    font-family: 'Architects Daughter', cursive;
+    font-size: x-large;
+    list-style: disc;
+    color: hsl(0, 14%, 96%);
+    padding: 100px;
+    background-color:rgba(249, 8, 8, 0.2);
+    position: center;
+    clip-path: inherit;
+    border-radius: 80px;
+}
+/* CSS for the apple image */
+#characters ul li img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 500px; /* Add spacing between the name and the image */
+    clip-path: circle();
+    position: center;
+}
+
+
+
+/* CSS for the "Themes" section */
+#themes {
+    position: relative;
+    background-color: rgba(249, 8, 8, 0.2); /* Background color for the section */
+    color: hsl(0, 20%, 98%);
+    padding: 20px; /* Adjust the padding as needed */
+    font-size: x-large;
+    border-radius: 50px;
+}
+
+/* Create a diagonal shape at the bottom using ::after pseudo-element */
+#themes::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* Adjust the height to control the shape */
+    background-color: #dd1b1b; /* Match the section's background color */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%); /* Adjust the clip-path to change the shape */
+}
+
+
+/* Reviews */
+.review {
+    background-color: hwb(0 6% 5%); /* Dark review background color */
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+.review-author {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+    text-align: right;
+    color: hsl(180, 17%, 89%); /* Orange author text color */
+}
+
+/* Footer styles */
+footer {
+    background-color: transparent; /* Make the footer transparent */
+    color: #ffffff;
+    text-align: center;
+}
+/* CSS for the "My Personal Thoughts" section */
+footer {
+    position: relative;
+    background-color: hsl(0, 14%, 97%); /* Background color for the section */
+    color: #0f0e0e;
+    padding: 20px; /* Adjust the padding as needed */
+}
+
+/* Create a diagonal shape at the top using ::before pseudo-element */
+footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Adjust the height to control the shape */
+    background-color: #ee0d0d; /* Match the section's background color */
+    clip-path: polygon(0% 100%, 100% 0%, 100% 20%, 0% 0%); /* Adjust the clip-path to change the shape */
+}
