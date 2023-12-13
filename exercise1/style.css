@@ -1,0 +1,90 @@
+body {
+     background-color:#32dbb1; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ h1 {   text-align: center;
+        color: chocolate;
+        font-size: 80px;
+        font-weight: bold;
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ a {
+        color: rgb(246, 251, 251);
+        font-weight: bold;
+        text-decoration: none;
+}
+   
+a:hover {
+        text-decoration: underline;
+        color: green;
+        font-size: 30px;
+ }
+
+hr {
+     border-color: red;
+ }
+
+
+ p {
+        font-size: 20px;
+        color: purple;
+ }
+
+ .red {
+        color: rgb(10, 10, 9);
+        font-weight: bold;
+        background-color: red;
+        padding: 50px 20px 50px 20px;  
+        margin: 50px 0;
+}
+
+#highlight {
+    background-color: yellow;
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.section {
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: #0d0f0d;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 300px; 
+}
+
+.image-container img {
+    width: 33%; 
+    object-fit: cover; 
+}
+
+h2 {
+    text-align: center;
+    color: chocolate; 
+}
+
+.title-container {
+    text-align: center;
+}
+
+.gif-before,
+.gif-after {
+    width: 50px; 
+    height: auto;
+}
+
